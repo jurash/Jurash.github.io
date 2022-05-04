@@ -2,4 +2,9 @@
 
 wats up guys its my first  big project 
 
-// sucka oneni amiga qotagm
+html
+css
+js
+jquery
+tailwind css
+and others
