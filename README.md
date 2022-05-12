@@ -1,6 +1,9 @@
 # Jurash.github.io
 
-wats up guys its my first  big project 
+Hello guys!
+I am Jurabek
+I'm interested in a hypersport
+In this sites I use 
 
 html
 css
@@ -8,3 +11,4 @@ js
 jquery
 tailwind css
 and others
+thanks.
