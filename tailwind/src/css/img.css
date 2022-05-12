@@ -25,10 +25,21 @@
 	-webkit-box-reflect: below 20px linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));	
 }
 
-@media only screen and (max-width: 600px) {
-	.cars ul li img{
-		width: 50%;
+@media (max-width: 600px) {
+	.hero .cars ul li img{
+		width: 200px;
 		height: auto;
+		margin-bottom: 0;
 	}
 }
 
+@media (max-width: 900px) {
+	.hero .cars ul li img{
+		width: 400px;
+		height: auto;
+		margin-bottom: 0;
+	}
+}
+
+
+#gl{width: 500px; height: 200px;}

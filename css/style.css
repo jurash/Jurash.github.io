@@ -219,6 +219,8 @@ nav {
 }
 
 .payment {
+  text-decoration: none;
+  outline: none;
   width: 500px;
   height: 500px;
   background-color: white;
@@ -241,6 +243,8 @@ nav {
 }
 
 label {
+  text-decoration: none;
+  outline: none;
   font-size: 14px;
   font-weight: 300;
 }
@@ -253,6 +257,8 @@ label {
 }
 
 .payInput::placeholder {
+  text-decoration: none;
+  outline: none;
   color: rgb(163, 163, 163);
 }
 
