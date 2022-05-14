@@ -21,7 +21,7 @@ input{
 /* hello */
 
 #hpk-maxsize{
-    margin-left: 300px;
+    margin: 0 auto;
     border-radius: 10px;
     width: 50%;
     height: 1000px;
@@ -49,10 +49,10 @@ input{
     border: 2px solid rgb(0, 0, 0);
 }
 
-@media (max-width: 700px) {
-    #hpk-maxsize{
-        width: 100%;
-        margin-left: 0;
+@media (max-width: 500px) {
+    #gl_dump{
+        width: auto;
+        height: auto;
     }
     
 }
