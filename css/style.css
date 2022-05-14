@@ -28,7 +28,7 @@ nav {
 }
 
 .search {
-  width: 800px;
+  width: 0 auto;
   display: flex;
   align-items: center;
   background-color: gray;
@@ -39,10 +39,11 @@ nav {
 .searchInput {
   outline: none;
 	border: none;
-  width: 800px;
+  width: 0 auto;
   border: none;
   background-color: transparent;
 }
+
 
 .searchInput::placeholder {
   color: lightgray;
