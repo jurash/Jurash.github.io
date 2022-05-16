@@ -1,0 +1,36 @@
+<script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+
+<link rel="shortcut icon" href="https://thumbs.dreamstime.com/z/asus-rog-republic-gamers-who-don-t-just-want-to-win-need-own-competition-gaming-laptops-monitors-204759344.jpg" type="image/x-jpg">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/still.css">
+
+<div >
+            <div class="flex ml-5 " id="img-src">
+                <div class="bg-slate-800 rounded-2xl w-80 h-80 text-center" id="a-g">
+                    <img class="ml-24" src="../../img/contact.png" alt="">
+                    <h1 class="mr-8 text-rose-200">contact</h1>
+                    <h2 class="ml-10 pl-2 mt-6 text-gray-50	">wow the world of asus zenbook</h2>
+                </div>
+                <div class="bg-slate-800 rounded-2xl ml-4 w-80 h-80 text-center" id="a-g">
+                    <img class="ml-24" src="../../img/gift.png" alt="">
+                    <h1 class="mr-8 text-rose-200">price</h1>
+                    <h2 class="ml-10 pl-2 mt-6 text-gray-50	">wow the world of asus zenbook</h2>
+            </div>
+            <div class="flex md:mt-0 mt-96  ml-5 " id="img-src">
+                <div class="bg-slate-800 rounded-2xl ml-4 w-80 h-80 text-center" id="a-g">
+                    <img class="ml-24 " src="../../img/return.png" alt="">
+                    <h1 class="mr-8 text-rose-200">recycle</h1>
+                    <h2 class="ml-10 pl-2 mt-6 text-gray-50	">wow the world of asus zenbook</h2>
+                </div>
+                <div class="bg-slate-800 rounded-2xl ml-4 w-80 h-80 text-center" id="a-g">
+                    <img class="ml-24" src="../../img/master.png" alt="">
+                    <h1 class="mr-8 text-rose-200">master asus</h1>
+                    <h2 class="ml-10 pl-2 mt-6 text-gray-50	">wow the world of asus zenbook</h2>
+                </div>
+            </div>
+        </div>
