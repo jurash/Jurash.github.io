@@ -1,6 +1,4 @@
 *{
-    /* width: 100%;
-    height: auto; */
 	margin: 0;
 	padding: 0;
 }
@@ -8,7 +6,6 @@
 .hero{
 	width: 100%;
 	height: 100vh;
-	/* background: #000; */
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 	overflow: hidden;
@@ -43,3 +40,8 @@
 
 
 #gl{width: 500px; height: 200px;}
+
+#carousel ul li img{
+	width: 100%;
+	height: 400px;
+}

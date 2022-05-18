@@ -5,77 +5,22 @@ const products = [
   {
     id: 1,
     title: "ZENBOOK",
-    price: 700,
-    colors: [
-      {
-        code: "black",
-        img: "./img/1.png",
-      },
-      {
-        code: "darkblue",
-        img: "./img/1.png",
-      },
-    ],
   },
   {
     id: 2,
     title: "PRO ART",
-    price: 2000,
-    colors: [
-      {
-        code: "lightgray",
-        img: "./img/2.png",
-      },
-      {
-        code: "green",
-        img: "./img/2.png",
-      },
-    ],
   },
   {
     id: 3,
     title: "GAMING",
-    price: 1500,
-    colors: [
-      {
-        code: "lightgray",
-        img: "./img/4.png",
-      },
-      {
-        code: "green",
-        img: "./img/4.png",
-      },
-    ],
   },
   {
     id: 4,
     title: "WORK",
-    price: 1000,
-    colors: [
-      {
-        code: "black",
-        img: "./img/5.png",
-      },
-      {
-        code: "lightgray",
-        img: "./img/5.png",
-      },
-    ],
   },
   {
     id: 5,
     title: "WOW THE WORLD",
-    price: 700,
-    colors: [
-      {
-        code: "gray",
-        img: "./img/7.png",
-      },
-      {
-        code: "black",
-        img: "./img/7.png",
-      },
-    ],
   },
 ];
 

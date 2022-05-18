@@ -66,4 +66,8 @@
         width: 400px;
         height: 100px;
     }
+    .mySlider .slider-item a img{
+        width: auto;
+        height: auto;
+    }
 }

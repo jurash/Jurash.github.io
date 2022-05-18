@@ -1,31 +1,13 @@
-/* #a-a{
-    width: 1300px;
-    height: 400px;
-} */
-
-/* #a-b{
-    width: 1300px;
-    height: 200px;
-} */
-
 #a-c{
-    width: 650px;
+    width: 100%;
     /* height: 400px; */
 }
 
-/* #a-d{
-    height: 200px;
-} */
-
 #a-f{
-    width: 650px;
+    width: 100%;
     height: 200px;
 }
 
-/* #a-g{
-    width: 319px;
-    height: 300px;
-} */
 
 #img-src img{
     width: 100px;
@@ -40,13 +22,6 @@
     width: 200px;
     height: auto;
 }
-
-/* body{
-    width: 100%;
-    height: auto;
-}
- */
-
 
 #hello-wata img{
     width: 100px;

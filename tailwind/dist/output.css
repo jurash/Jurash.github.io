@@ -541,6 +541,10 @@ h3 {
   grid-column: span 1 / span 1;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -650,6 +654,14 @@ h3 {
   margin-bottom: 2.5rem;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -662,20 +674,16 @@ h3 {
   margin-right: 0.25rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
-.ml-12 {
-  margin-left: 3rem;
+.mb-64 {
+  margin-bottom: 16rem;
 }
 
-.ml-16 {
-  margin-left: 4rem;
-}
-
-.mr-16 {
-  margin-right: 4rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -736,6 +744,10 @@ h3 {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-1 {
@@ -1228,6 +1240,10 @@ h3 {
     margin-left: 0px;
   }
 
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .sm\:w-96 {
     width: 24rem;
   }
@@ -1254,6 +1270,10 @@ h3 {
 
   .md\:h-96 {
     height: 24rem;
+  }
+
+  .md\:h-9 {
+    height: 2.25rem;
   }
 
   .md\:w-full {

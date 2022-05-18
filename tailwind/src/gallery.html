@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="https://thumbs.dreamstime.com/z/asus-rog-republic-gamers-who-don-t-just-want-to-win-need-own-competition-gaming-laptops-monitors-204759344.jpg" type="image/x-jpg">
     <link rel="stylesheet" type="text/css" href="./css/jquery.flipster.min.css">
     <link rel="stylesheet" href="./css/img.css">
-    <!-- <link rel="stylesheet" href="./css/still.css"> -->
     
     
 </head>
@@ -17,7 +16,6 @@
   <div class="container  mx-auto mt-4">
     <div class="md:flex md:flex-row justify-between text-center " id="hello">
         <div class="flex flex-row justify-center">
-            <!-- <img src="../img/gallery-asus-icon-17.png" alt="" class="w-1 h-15" height="400px" width="400px"> -->
             <div class="bg-gradient-to-r from-purple-400 to-red-600 w-10 h-10 rounded-lg"></div>
             <h1 class="text-3xl text-purple-600 ml-2 underline decoration-red-500">ASUS</h1>
         </div>
@@ -69,18 +67,44 @@
               <img src="https://b2c-contenthub.com/wp-content/uploads/2022/04/Asus-Flow-Z13-overview.jpeg?quality=50&strip=all&w=1200" alt="">
             </a>
           </div>
-          <!-- <div class="...">
-            <a href="https://cdn.pocket-lint.com/r/s/970x/assets/images/158967-laptops-review-asus-rog-flow-x13-laptop-review-image1-kdjlfav3qz.jpg">
-              <img src="https://cdn.pocket-lint.com/r/s/970x/assets/images/158967-laptops-review-asus-rog-flow-x13-laptop-review-image1-kdjlfav3qz.jpg" alt="">
-            </a>
-          </div> -->
-          
         </div>
         <br>
         <br>
         <br>
-
-        <!-- z-indexproba suka jalab mazgi yaibani -->
+        <div class="hello-gys">
+          <div id="carousel">
+            <ul>
+              <li>
+                <img src="../img/1_big.jpg" alt="">
+              </li>
+              <li>
+                <img src="../img/2_big.jpg" alt="">
+              </li>
+              <li>
+                <img src="../img/7.png" alt="">
+              </li>
+              <li>
+                <img src="../img/1.png" alt="">
+              </li>
+              <li>
+                <img src="../img/11.png" alt="">
+              </li>
+              <li>
+                <img src="../img/2.png" alt="">
+              </li>
+              <li>
+                <img src="../img/4.png" alt="">
+              </li>
+              <li>
+                <img src="../img/6.png" alt="">
+              </li>
+              <li>
+                <img src="../img/5.png" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+        
         <!-- position md:flex md:flex-row-->
         <div class="hero">
           <div class="cars">
@@ -104,12 +128,7 @@
             </ul>
           </div>
         </div>
-
-
-        <!-- hello -->
-
-        <!-- footer -->
-      <footer class="text-center lg:text-left bg-gray-100 text-gray-600 ">
+      <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
           <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
             <div class="mr-12 hidden lg:block">
               <span>Get connected with us on social networks:</span>
@@ -282,6 +301,13 @@
         <script type="text/javascript" src="./js/jquery.flipster.min.js"></script>
         <script type="text/javascript">
           $('.cars').flipster();
+
+          $("#carousel").flipster({
+            style: 'carousel',
+            spacing: -0.5,
+            nav: true,
+            buttons: true,
+        });
         </script>
 </body>
 </html>
