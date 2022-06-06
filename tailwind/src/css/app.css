@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+#water-melon #suv {
+  left: 50px;
+  position: relative;
+  font-size: 6rem;
+  /* 96px */
+  line-height: 1;
+  color: #252839;
+  -webkit-text-stroke: 0.3vw #383d52;
+  text-transform: uppercase;
+}
+
+#water-melon #suv::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #e6c803;
+  -webkit-text-stroke: 0vw #383d52;
+  border-right: 2px solid #edb81c;
+  overflow: hidden;
+  -webkit-animation: animate 6s linear infinite;
+          animation: animate 6s linear infinite;
+}
+
+@-webkit-keyframes animate {
+  0%, 10% {
+    width: 0;
+  }
+  10% {
+    width: 24%;
+  }
+}
+
+@keyframes animate {
+  0%, 10% {
+    width: 0;
+  }
+  10% {
+    width: 24%;
+  }
+}
+
+#water {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+#water #melon {
+  margin: 0 auto;
+  top: 50px;
+  position: relative;
+  width: 90%;
+  height: 80vh;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(54%, #134613), color-stop(100%, #2baf2f), to(#00d4ff)) #020024;
+  background: linear-gradient(90deg, #020024 0%, #134613 54%, #2baf2f 100%, #00d4ff 100%) #020024;
+}
+
+#water #melon #sabzi {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+}
+
+#water #melon #ins {
+  position: absolute;
+  right: 270px;
+  width: 300px;
+  margin: 0 auto;
+  height: 300px;
+  -webkit-animation: mymove 5s infinite;
+          animation: mymove 5s infinite;
+}
+
+@media (max-width: 668px) {
+  #ins {
+    position: absolute;
+    left: 70px;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@-webkit-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+form input, label {
+  background: linear-gradient(-135deg, #3895D3, #a714a2);
+}
+
+input {
+  position: absolute;
+  left: 35px;
+  width: 30%;
+  background: white;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+/*# sourceMappingURL=app.css.map */

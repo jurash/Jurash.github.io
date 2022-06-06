@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./slick/slick.css">
     <link rel="stylesheet" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/app.css">
     <style>
       a{
         text-decoration: none;
@@ -17,12 +18,26 @@
     </style>
 </head>
 <body class="bg-slate-100 font-mono sm:ml-0 ml-5">
+  <div id="water">
+    <div id="melon">
+        <div id="water-melon"><br><br><br>
+          <h2 class="" id="suv" data-text="Welcome">Welcome</h2><br><br><br>
+        </div>
+        <img id="sabzi" src="https://svgsilh.com/svg/2061132.svg" alt="">
+        <img id="ins" src="https://images.vexels.com/media/users/3/149810/isolated/preview/55f88d3884bf73742631d9945567e3ec-flying-saucer-kids-illustration.png" alt="">
+        <form action="">
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="your email pls" class="ml-0"><br><br>
+        </form>
+    </div>
+</div>
   <div class="container  mx-auto mt-4">
     <div class="md:flex md:flex-row justify-between text-center " id="hello">
         <div class="flex flex-row justify-center">
             <div class="bg-gradient-to-r from-purple-400 to-red-600 w-10 h-10 rounded-lg"></div>
             <h1 class="text-3xl text-purple-600 ml-2 underline decoration-red-500">ASUS</h1>
         </div>
+        
         <!-- navbar -->
         <div class="mt-2 flex ml-2 mb-4">
             <a href="./index.html" class="text-gray-600 hover:text-white p-4 bg-white hover:bg-sky-700 rounded-full">HOME</a>
@@ -555,6 +570,10 @@
     <script src="./slick/slick.min.js"></script>
     <script>
       $('.mySlider').slick();
+
+      $( "img" ).click(function() {
+        $( "#melon" ).hide( "slow" );
+      });
     </script>
 </body>
 </html>
